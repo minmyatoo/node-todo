@@ -1,0 +1,24 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "A command-line task management app built with Node.js.",
+  "main": "todo.js",
+  "scripts": {
+    "start": "node todo.js"
+  },
+  "keywords": ["task", "management", "command-line", "Node.js", "productivity"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "inquirer": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minmyatoo/node-todo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minmyatoo/node-todo/issues"
+  },
+  "homepage": "https://github.com/minmyatoo/node-todo#readme"
+}
