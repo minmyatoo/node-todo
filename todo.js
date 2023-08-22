@@ -466,3 +466,8 @@ async function runTimer(duration) {
 }
 
 main();
+
+
+module.exports = {
+    getRandomQuote
+};

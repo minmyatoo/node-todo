@@ -4,9 +4,16 @@
   "description": "A command-line task management app built with Node.js.",
   "main": "todo.js",
   "scripts": {
-    "start": "node todo.js"
+    "start": "node todo.js",
+    "test": "jest --verbose"
   },
-  "keywords": ["task", "management", "command-line", "Node.js", "productivity"],
+  "keywords": [
+    "task",
+    "management",
+    "command-line",
+    "Node.js",
+    "productivity"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
@@ -20,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/minmyatoo/node-todo/issues"
   },
-  "homepage": "https://github.com/minmyatoo/node-todo#readme"
+  "homepage": "https://github.com/minmyatoo/node-todo#readme",
+  "devDependencies": {
+    "jest": "^29.6.3"
+  }
 }
